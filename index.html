@@ -7,8 +7,34 @@
     <title>Tailwind Login page</title>
 </head>
 <body class="h-screen bg-linear-to-r from-green-400 to-indigo-500 flex justify-center items-center">
-    <div class="max-w-sm bg-white p-8 w-full">
+    <div class="max-w-sm bg-white p-8 w-full rounded-xl">
  <h1 class="text-center text-gray-500 font-bold text-2xl">Login Page</h1>
+
+ <form action="" class="mt-4">
+
+    <div class="mb-2">
+        <label for="name" class="block text-gray-400 mb-1">Name</label>
+    <input id="name" type="text" class="px-6 py-2 w-full focus:outline-none focus:ring-2 ring-indigo-500 border-2 border-gray-300 rounded-lg" placeholder="Enter Name">
+    </div>
+
+    <div class="mb-2">
+        <label for="email" class="block text-gray-400 mb-1">Email</label>
+    <input id="email" type="email" class="px-6 py-2 w-full focus:outline-none focus:ring-2 ring-indigo-500 border-2 border-gray-300 rounded-lg" placeholder="Enter Email">
+    </div>
+
+
+    <div class="mb-2">
+        <label for="password" class="block text-gray-400 mb-1">Password</label>
+    <input id="password" type="password" class="px-6 py-2 w-full focus:outline-none focus:ring-2 ring-indigo-500 border-2 border-gray-300 rounded-lg" placeholder="Enter Password">
+    </div>
+
+    <button type="submit" class="bg-indigo-400 w-full px-4 py-2 rounded-lg text-white text-xl mt-2">Login</button>
+
+ 
+ <h2 class="mt-2 text-center text-gray-400">Already have an account? <a href="" class="text-blue-400">Login</a></h2>
+
+    
+ </form>
     </div>
 </body>
 </html>
